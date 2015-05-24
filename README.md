@@ -7,7 +7,7 @@ run_analysis.R contains all the code to perform the analyses described in the 5 
 
 The output of the 5th step is called average_data.txt, and uploaded in the course project's page.
 
-# Explanation on run_analysis.R
+## Explanation on run_analysis.R
 
 The script run_analysis.R performs the 5 steps described in the course project's page.
 
