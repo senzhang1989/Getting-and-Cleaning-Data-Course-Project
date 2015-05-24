@@ -14,5 +14,5 @@ The script run_analysis.R performs the 5 steps described in the course project's
 * In step 1, all data with the same dimensions are merged using the rbind() function. 
 * In step 2, only those columns with the mean and standard deviation measures are taken from the whole dataset. Filter stands for our interest columns. After extracting these columns, they are given the correct names, taken from features.txt.
 * In step 3, as activity data is addressed with values 1 to 6, we take the activity names and IDs from activity_labels.txt and they are substituted in the dataset.
-* On the whole dataset, those columns with vague column names are corrected.
+* In step 4, on the whole dataset, those columns with vague column names are corrected.
 * In step 5, generate a new dataset with all the average measures for each subject and activity type. The output file is called average_data.txt, and uploaded to this repository.
